@@ -250,7 +250,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## GitHub Repository
 
-You can find the project repository here: [Todo Application](https://github.com/kharadimihir/todo-application)
+You can find the project repository here: [Todo Application](https://github.com/kharadimihir/Todo_App.git)
 
 Feel free to customize this README for your specific repository!
 )

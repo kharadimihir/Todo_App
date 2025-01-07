@@ -14,7 +14,6 @@ A feature-rich Todo App built with React.js, providing a seamless user experienc
 - [Demo](#demo)
 - [Contributing](#contributing)
 - [Contact](#contact)
-- [License](#license)
 
 ## Features
 

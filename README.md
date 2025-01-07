@@ -1,29 +1,42 @@
 # Todo App
 
-A feature-rich Todo application built using React.js and Context API, providing an intuitive interface to manage your daily tasks effectively.
+A feature-rich Todo App built with React.js, providing a seamless user experience for managing daily tasks efficiently. The app supports CRUD operations with localStorage integration for persistent data storage.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the App](#running-the-app)
+- [Technologies Used](#technologies-used)
+- [File Structure](#file-structure)
+- [Demo](#demo)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [License](#license)
 
 ## Features
 
-- Add, edit, delete, and mark tasks as complete.
-- Persistent local storage to save todos.
-- Dynamic UI with a visually appealing design.
-- Fully responsive layout.
+- Add, edit, and delete todos.
+- Mark todos as complete or incomplete.
+- Persistent storage using localStorage.
+- Responsive and modern UI with Tailwind CSS.
+- Editable todo items with a toggleable state.
+- Input validation to prevent empty tasks.
 
-## Demo
+## Getting Started
 
-Check out the live demo: [Todo App Live](https://todo-app-kharadimihir.vercel.app/)
+Follow these instructions to set up and run the project locally.
 
-## Screenshots
+### Prerequisites
 
-### Home Page
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)
+Ensure you have the following installed on your machine:
 
-### Add Todo
-![Add Todo](https://via.placeholder.com/800x400?text=Add+Todo+Screenshot)
+- [Node.js](https://nodejs.org/) (version 16 or above)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-## Installation
-
-Follow these steps to set up the project locally:
+### Installation
 
 1. Clone the repository:
    ```bash
@@ -38,28 +51,32 @@ Follow these steps to set up the project locally:
 3. Install dependencies:
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
+### Running the App
 
-5. Open your browser and go to:
-   ```
-   http://localhost:5173
-   ```
+Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open your browser and navigate to `http://localhost:5173` to view the app.
 
 ## Technologies Used
 
-- **React.js**: For building the user interface.
+- **React.js**: JavaScript library for building user interfaces.
 - **Context API**: For state management.
-- **LocalStorage**: For persisting data across sessions.
-- **Tailwind CSS**: For styling.
+- **Tailwind CSS**: For styling the UI.
+- **localStorage**: For persisting data.
+- **uuid**: For generating unique IDs.
 
-## Folder Structure
+## File Structure
 
-```
+```plaintext
 Todo_App/
 ├── public/
 ├── src/
@@ -71,15 +88,37 @@ Todo_App/
 │   │   ├── TodoProvider.jsx
 │   ├── App.jsx
 │   ├── index.css
-│   ├── main.jsx
+│   ├── index.jsx
 ├── package.json
 ├── README.md
 ```
 
-## Connect with Me
+## Demo
 
+![Todo App Screenshot](https://via.placeholder.com/800x400?text=Todo+App+Screenshot)
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
+
+## Contact
+
+- **GitHub**: [Mihir Kharadi](https://github.com/kharadimihir)
 - **LinkedIn**: [Mihir Kharadi](https://www.linkedin.com/in/mihir-kharadi-041ab4327/)
 
-## Feedback
 
-If you have any suggestions or feedback, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/mihir-kharadi-041ab4327/).

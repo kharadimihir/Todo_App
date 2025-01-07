@@ -1,31 +1,29 @@
 # Todo App
 
-A simple and intuitive **Todo Application** built with **React** and **Context API**, featuring functionalities to add, update, delete, and toggle todos. The app also supports local storage to persist data across sessions.
-
----
+A feature-rich Todo application built using React.js and Context API, providing an intuitive interface to manage your daily tasks effectively.
 
 ## Features
 
-- **Add Todos:** Create new tasks with ease.
-- **Edit Todos:** Modify existing tasks.
-- **Mark as Complete:** Toggle completion status of tasks.
-- **Delete Todos:** Remove tasks permanently.
-- **Persistent Storage:** Automatically saves and retrieves todos from local storage.
+- Add, edit, delete, and mark tasks as complete.
+- Persistent local storage to save todos.
+- Dynamic UI with a visually appealing design.
+- Fully responsive layout.
 
----
+## Demo
 
-## Tech Stack
+Check out the live demo: [Todo App Live](https://todo-app-kharadimihir.vercel.app/)
 
-- **Frontend:** React, Tailwind CSS
-- **State Management:** Context API
-- **Unique Identifiers:** UUID
-- **Local Storage:** Browser's local storage API
+## Screenshots
 
----
+### Home Page
+![Home Page](https://via.placeholder.com/800x400?text=Home+Page+Screenshot)
+
+### Add Todo
+![Add Todo](https://via.placeholder.com/800x400?text=Add+Todo+Screenshot)
 
 ## Installation
 
-Follow these steps to run the application locally:
+Follow these steps to set up the project locally:
 
 1. Clone the repository:
    ```bash
@@ -47,101 +45,41 @@ Follow these steps to run the application locally:
    npm run dev
    ```
 
-5. Open your browser and navigate to:
+5. Open your browser and go to:
    ```
    http://localhost:5173
    ```
 
----
+## Technologies Used
 
-## File Structure
+- **React.js**: For building the user interface.
+- **Context API**: For state management.
+- **LocalStorage**: For persisting data across sessions.
+- **Tailwind CSS**: For styling.
+
+## Folder Structure
 
 ```
 Todo_App/
 ├── public/
 ├── src/
 │   ├── components/
-│   │   ├── TodoForm.jsx       # Form to add todos
-│   │   ├── TodoItem.jsx       # Individual todo item component
+│   │   ├── TodoForm.jsx
+│   │   ├── TodoItem.jsx
 │   ├── contexts/
-│   │   ├── TodoContext.js     # Context for managing todos
-│   │   ├── TodoProvider.jsx   # Provider for managing todo state
-│   ├── pages/
-│   │   ├── App.jsx            # Main application component
-│   ├── index.css              # Global styles
-│   ├── index.js               # Entry point
+│   │   ├── TodoContext.jsx
+│   │   ├── TodoProvider.jsx
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
 ├── package.json
-├── vite.config.js             # Vite configuration file
-└── README.md
+├── README.md
 ```
 
----
+## Connect with Me
 
-## Usage
+- **LinkedIn**: [Mihir Kharadi](https://www.linkedin.com/in/mihir-kharadi-041ab4327/)
 
-1. **Add a Todo:**
-   - Enter a task in the input field.
-   - Click the **Add** button to save the task.
+## Feedback
 
-2. **Edit a Todo:**
-   - Click the ✏️ icon to enable editing.
-   - Modify the task and click 📁 to save changes.
-
-3. **Mark as Complete:**
-   - Check the checkbox to mark a task as completed.
-
-4. **Delete a Todo:**
-   - Click ❌ to remove a task from the list.
-
----
-
-## Screenshots
-
-### Add and Manage Todos
-![Screenshot](https://via.placeholder.com/800x400?text=Todo+App+Screenshot)
-
----
-
-## Dependencies
-
-- **React:** ^18.0.0
-- **Vite:** ^4.0.0
-- **Tailwind CSS:** ^3.0.0
-- **uuid:** ^9.0.0
-
----
-
-## Contributing
-
-Contributions are welcome! Follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Author
-
-**Mihir Kharadi**
-
-- [GitHub](https://github.com/kharadimihir)
-- [LinkedIn](https://linkedin.com/in/mihir-kharadi)
-
+If you have any suggestions or feedback, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/mihir-kharadi-041ab4327/).
